@@ -45,6 +45,16 @@ scale: 2.5,
 offset: {
     x: 215,
     y: 157
+}, 
+sprites: {
+    idle: {
+        imageSrc: './img/samuraiMack/Idle.png',
+        framesMax: 8
+    },
+    run: {
+        imageSrc: './img/samuraiMack/Run.png',
+        framesMax: 8
+    }
 }
 })
 
@@ -108,6 +118,7 @@ function animate() {
     if (keys.a.pressed && player.lastkey == 'a') 
     {
         player.velocity.x = -5
+        player.image = player.sprites.run.image
     }
     else if (keys.d.pressed && player.lastkey == 'd') 
     {
