@@ -15,7 +15,6 @@ I used HTML canvas and Javascript for this project
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Youtube](https://www.youtube.com/watch?v=vyqbNFMDRGQ&t=477s)
 
 # Future Work
